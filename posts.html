@@ -6,6 +6,18 @@
   <link rel="shortcut icon" href="images/audi.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&family=Poppins&display=swap" rel="stylesheet">
+  <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+  </style>
 </head>
 <body>
   <!-- HEADER-->
@@ -25,14 +37,31 @@
   <!-------------------------------------------------------------------------------------------------- 
     content/news 
     -------------------------------------------------------------------------------------------------->
-  <div class="div">
-      <h1>Second Post post</h1>
-      hi/ it's work? i post this with github pages :)
-      <footer class="footer_content">
-        Egor Stroganov, April 12
-      </footer>
-    </div>  
-  <div class="div">
+    <div class="div">
+      <h1>playlist 1 &#128164;</h1>
+      <img src="images/13_04.jpg" width="500" height="150">
+      <p></p>
+      <audio src="" controls autoplay="none" id="audioPlayer" >
+        Sorry, your browser doesn't support html5!
+      </audio>
+      <ul id="playlist">
+          <li class="current-song"><a href="sound/13_04_6.mp3">itssvd, Shiloh Dynasty - You Know That I Don't Play</a></li>
+          <li><a href="sound/13_04_2.mp3">скриптонит - як 2</a></li>
+          <li><a href="sound/13_04_3.mp3">itssvd, Shiloh Dynasty - Losing Interest</a></li>
+          <li><a href="sound/13_04_4.mp3">itssvd, Shiloh Dynasty - Dance with Me</a></li>
+          <li><a href="sound/13_04_5.mp3">itssvd, Shiloh Dynasty - Safe</a></li>
+          <li><a href="sound/13_04_1.mp3">хаски & масло черного тмина - убей меня</a></li>
+          <li><a href="sound/13_04_7.mp3">Desire - Hucci</a></li>
+      </ul>
+      <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+      <script src="audioPlayer.js"></script>
+      <script>
+          // loads the audio player
+          audioPlayer();
+      </script>
+    </div>
+
+    <div class="div">
       <h1>First post</h1>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
