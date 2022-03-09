@@ -1,0 +1,134 @@
+h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-size: 26px;
+  font-family: 'Montserrat', sans-serif;
+}  
+
+h1 {
+	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 42px;
+}
+
+.h {
+  font-size: 20px;
+  margin: 10px ;
+  padding: 10px;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+	background-color: #edeef0;
+	margin: 0;
+	padding: 0;
+}
+.white_back {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #4a76a8;
+  margin: 0;
+}
+
+.header_index {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.header_section {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  display: flex;
+}
+
+.header_item {
+	font-weight: bold;
+	font-size: 24px;
+  padding: 10px 20px;
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header_phone {
+	font-size: 24px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+	margin: 0;
+
+}
+
+.a {
+  text-decoration: none;
+  color: white;
+}
+
+.header_item:hover {
+	background-color: #2a5885;
+}
+
+form {
+	
+  font-family: 'Nunito', sans-serif;
+        width: 80%;
+        margin: 3em auto;
+        padding: 1em;
+        background-color: #fdfdff;
+        border-radius: 0.5em;
+        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+        font-size: 18px;
+}
+.niga {
+	margin: 0;
+	display: flex;
+}
+
+.div {
+	display: flex;
+	margin: 20px 20px;
+}
+
+.baby {
+	margin: 10px;
+}
+
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {border: 1px solid grey;
+		width: 100%;
+} 
+/* границы ячеек первого ряда таблицы */
+th {border: 1px solid grey;
+}
+/* границы ячеек тела таблицы */
+td {border: 1px solid grey;}
+
+.big {
+	font-size: 36px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.dj {
+  margin: 0;
+  padding: 100px 0;
+  color: white;
+  font-size: 86px;
+  font-family: 'Montserrat', sans-serif;
+  background: url("images/index.jpg"); 
+  background-size: 100%;
+  width: 100%;
+}
+
